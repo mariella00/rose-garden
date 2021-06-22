@@ -1,0 +1,88 @@
+.reviews .overall_rating .num {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F5A624;
+}
+.reviews .overall_rating .stars {
+    letter-spacing: 3px;
+    font-size: 32px;
+    color: #F5A624;
+    padding: 0 5px 0 10px;
+}
+.reviews .overall_rating .total {
+    color: #120f0f;
+    font-size: 20px;
+}
+.reviews .write_review_btn, .reviews .write_review button {
+    display: inline-block;
+    background-color: #339136;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+}
+.write_review_btn{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+.reviews .write_review_btn:hover, .reviews .write_review button:hover {
+    background-color: #83d687;
+}
+.reviews .write_review {
+    display: none;
+    padding: 20px 0 10px 0;
+}
+.reviews .write_review textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 150px;
+    margin-top: 10px;
+}
+.reviews .write_review input {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.reviews .write_review button {
+    cursor: pointer;
+}
+.reviews .review {
+    margin: 10px;
+    padding: 5px;
+}
+.reviews .review .name {
+    margin: 0;
+    font-size: 18px;
+    color: #121010;
+}
+.reviews .review .rating {
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: #F5A624;
+}
+.reviews .review .date {
+    color: #777777;
+    font-size: 14px;
+}
+.reviews .review .content {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 50px ;
+     border: 1px solid #BEBEBE;
+     border-radius: 5px;
+}
+.reviews .review:last-child {
+    border-bottom: 0;
+}
